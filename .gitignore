@@ -1,0 +1,63 @@
+# ====== Global ======
+.env
+*.env
+.DS_Store
+Thumbs.db
+
+# ====== Frontend: ReactJS (client/) ======
+client/node_modules/
+client/build/
+client/dist/
+client/.next/
+client/.parcel-cache/
+client/.turbo/
+client/.vite/
+
+# Optional log files
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+# Local config
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# VSCode config
+client/.vscode/
+
+# ====== Backend: C# ASP.NET Core (server/) ======
+server/bin/
+server/obj/
+server/.vs/
+server/.vscode/
+server/*.user
+server/*.suo
+
+# ASP.NET Secret Manager settings
+server/secrets.json
+
+# Publish output
+server/wwwroot/
+
+# User-specific files
+server/*.db
+server/*.log
+server/*.cache
+
+# Optional Rider/Resharper
+server/.idea/
+server/*.DotSettings.user
+
+# ====== Global IDE tools ======
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ====== Git ======
+.git/
